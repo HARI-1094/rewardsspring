@@ -1,0 +1,83 @@
+/* src/styles/FinalSubmission.css */
+.final-submission1 {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.final-submission h2 {
+  text-align: center;
+  color: #333;
+}
+
+.project-ids {
+  margin-bottom: 20px;
+}
+
+.project-ids h3 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.project-ids select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.download-pdf button,
+.enter-marks button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-pdf button:hover,
+.enter-marks button:hover {
+  background-color: #0056b3;
+}
+
+.enter-marks input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.additional-info {
+  margin-top: 20px;
+}
+
+.additional-info h4 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.additional-info p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.additional-info textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: none;
+  height: 100px;
+}

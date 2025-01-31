@@ -1,0 +1,88 @@
+.marks-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.select-pid {
+  margin-bottom: 20px;
+}
+
+.select-pid label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.select-pid select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.mark-allocation-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mark-allocation-title h3 {
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.marks-grid {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.marks-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.marks-input label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.marks-input input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.marks-input input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.submit-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button button:hover {
+  background-color: #0056b3;
+}
+

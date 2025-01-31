@@ -1,0 +1,73 @@
+.reviewer-total {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .reviewer-total h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .project-ids {
+    margin-bottom: 20px;
+  }
+  
+  .project-ids h3 {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .project-ids select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .project-ids select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .total-display {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .total-display h4 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .total-display p {
+    font-size: 20px;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .reviewer-total {
+      padding: 15px;
+    }
+  
+    .project-ids h3,
+    .total-display h4 {
+      font-size: 14px;
+    }
+  
+    .total-display p {
+      font-size: 18px;
+    }
+  }
+  

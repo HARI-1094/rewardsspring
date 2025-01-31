@@ -1,0 +1,41 @@
+.worklog-marks {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .project-ids {
+    margin-bottom: 20px;
+  }
+  
+  .project-ids select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .worklog-details {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .worklog-details h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .worklog-details p {
+    font-size: 16px;
+    color: #333;
+  }
+  
